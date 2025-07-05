@@ -2,7 +2,7 @@ services:
   - type: background
     name: render-test
     runtime: python
-    repo: https://github.com/LEONARDOSUSA/Botini5M
+    repo: https://github.com/LEONARDOSUSA/diagnostico-render
     branch: diagnostico-render
     buildCommand: pip install -r requirements.txt
     startCommand: python app_test.py
